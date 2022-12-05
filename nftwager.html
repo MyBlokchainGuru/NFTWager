@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wager Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="create-wager">
+    <h1>Create a Wager</h1>
+    <form>
+      <label>Player 1 Address:</label>
+      <input type="text" id="player1-address">
+      <label>Player 2 Address:</label>
+      <input type="text" id="player2-address">
+      <button type="submit">Create Wager</button>
+    </form>
+  </div>
+
+  <div id="pending-wagers">
+    <h1>Pending Wagers</h1>
+    <ul id="wager-list"></ul>
+  </div>
+
+  <div id="leaderboard">
+    <h1>Leaderboard</h1>
+    <ol id="player-list"></ol>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.2.1/dist/web3.min.js%22%3E</script>
+  <script src="app.js"></script>
+</body>
+</html>
